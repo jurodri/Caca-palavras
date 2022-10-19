@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matriz</title>
+</head>
+<body>
+   
+        <div class='titulo'>
+            <p><b>Caça Palavras</b></p>
+        </div>
+
+        
+     
+    <table align="center" style="margin-bottom: 20px;">
+        <script>
+            matriz = new Array();
+            matriz = [ 
+                [ ["H"], ["M",'c1'], ["A",'c1'], ["C",'c1'], ["U",'c1'], ["N",'c1'], ["A",'c1'], ["I",'c1'], ["M",'c1'], ["A",'c1'], ["O"], ["P"]],
+                [["G"], ["U"], ["P"], ["N",'c1'], ["A",'c1'], ["Z",'c1'], ["I",'c1'], ["A",'c1'], ["Z",'c1'], ["E",'c1'], ["N",'c1'], ["O",'c1']],
+                [["T"], ["N"], ["N"], ["D"], ["E",'c1'], ["U",'c1'], ["R",'c1'], ["I",'c1'], ["D",'c1'], ["I",'c1'], ["C",'c1'], ["E",'c1']],
+                [["C",'c1'], ["I",'c1'], ["T"], ["B",'c1'], ["B",'c1'], ["H"], ["H"], ["D"], ["N"], ["A"], ["E"], ["A"]],
+                [["A",'c1'], ["R",'c1'], ["S"], ["R",'c1'], ["E",'c1'], ["U",'c1'], ["C",'c1'], ["L",'c1'], ["I",'c1'], ["D",'c1'], ["E",'c1'], ["S",'c1']],
+                [["P",'c1'], ["A",'c1'], ["H"], ["A",'c1'], ["N",'c1'], ["D"], ["O"], ["N"], ["R"], ["D"], ["T"], ["O"]],
+                [["I",'c1'], ["C",'c1'], ["O",'c1'], ["S",'c1'], ["T",'c1'], ["A",'c1'], ["N",'c1'], ["T",'c1'], ["I",'c1'], ["N",'c1'], ["O",'c1'], ["N"]],
+                [["T",'c1'], ["E",'c1'], ["E"], ["C",'c1'], ["I",'c1'], ["C"], ["E"], ["B"], ["O"], ["B"], ["E"], ["T"]],
+                [["U",'c1'], ["M",'c1'], ["A"], ["U",'c1'], ["N",'c1'], ["L"], ["R"], ["I"], ["D"], ["K"], ["N"], ["E"]],
+                [["R"], ["A",'c1'], ["S"], ["B",'c1'], ["H",'c1'], ["T"], ["A",'c1'], ["M",'c1'], ["E",'c1'], ["L",'c1'], ["I",'c1'], ["A",'c1']],
+                [["L"], ["A"], ["R"], ["A",'c1'], ["O",'c1'], ["A"], ["O"], ["T"], ["N"], ["E"], ["T"], ["A"]],
+                [["A"], ["O"], ["M"], ["S",'c1'], ["O"], ["S"], ["O"], ["R"], ["O"], ["O"], ["W"], ["E"]],
+            ];
+                           
+
+            for(linha=0;linha<matriz.length;linha++) {
+                document.write('<tr>');
+                    for(coluna=0;coluna<matriz[linha].length;coluna++) {
+                        document.write("<td class='" + matriz[linha][coluna][1] + "'>" + matriz[linha][coluna][0] + "</td>");
+                    }
+                document.write('</tr>');
+            }
+        </script>
+    </table>
+
+    <div class="subtitulo">
+        Personagens da literatura Brasileira
+    </div>
+
+        <div class='palavras'>
+            <table border="0" align="center" width="700px">
+                <tr>
+                    <td >AMELIA</td>
+                    <td >CAPITU</td>
+                    <td >BENTINHO</td>
+                    <td >BRÁSCUBAS</td>
+                    <td >COSTANTINO</td>
+                </tr>
+                <tr>
+                    <td >EUCLIDES</td>
+                    <td >IRACEMA</td>
+                    <td >MACUNAIMA</td>
+                    <td >NAZIAZENO</td>
+                    <td >EURIDICE</td>
+                </tr>
+            </table>
+        </div>
+
+</body>
+</html>

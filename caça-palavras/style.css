@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 18px;
+    color:black;
+    text-align: center;
+}
+
+.palavras{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.c1 {
+    background-color: #CDF5F6;
+    color: black;
+}
